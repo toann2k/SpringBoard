@@ -1,0 +1,38 @@
+Part 1
+
+1) mkdir frist
+2) cd first
+3) touch person.txt
+4) mv person.txt another.txt
+5) cp another.txt copy.txt
+6) rm copy.txt
+7) cp first second -r
+8) rm second -r
+
+Part 2
+
+1) The "man" command is used to provide descriptions and infromatin about the functions of other commands. To scroll to get out ctrl + d to advance half 
+a page ctrl + b to go back one page and ctrl + u to go back half a page. 
+
+2) The "l" stand for long listing format. The "a" lists all files and folder included hidden ones. 
+
+3)ctrl + left/right
+
+4)ctrl + e
+
+5)ctrl + a
+
+6)option + delete
+
+7)The terminal is a program that interact with the shell. The shell is what actually handles the commands. 
+
+8) An abolute path is a path that starts from the root rute and give the complete location for a file or folder. 
+
+9) A relative path is a path that starts at the current location and not root. 
+
+10) A flag adds additional functionality to an existing command. There are -a and -l for the ls command and -r for the cp and rm command. 
+
+11) The r will recursively  go through each folder and remove each files with force.  
+
+
+
