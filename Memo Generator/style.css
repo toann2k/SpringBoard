@@ -1,0 +1,124 @@
+
+
+#task{
+    margin-left: 25px; 
+    font-size: 20px ;
+    size: 90px;
+   
+    
+}
+#topmessage1{
+    margin-left: 25px; 
+    font-size: 20px ;
+    size: 90px;
+    
+    
+}
+#bottommessage1{
+    margin-left: 25px; 
+    font-size: 20px ;
+    size: 90px;
+   
+    
+}
+
+div submit {
+    padding: 0px;
+    display:block;
+    position:fixed;
+    top:2x;
+    right:0px;
+
+
+}
+#image1 {
+    
+    width : 600px;
+    height: 320px;
+    top : 250px;
+    left : 30px;
+    position:absolute;
+}
+
+#image2 {
+    width : 600px;
+    height : 320px;
+    top : 250px;
+    left : 700px;
+    position:absolute;
+
+}   
+
+
+
+#button1
+{   position : absolute;
+    height: 20px;
+    width: 100px;
+    top : 590px;
+    left : 30px;
+}
+
+#button2
+{   position : absolute;
+    height: 20px;
+    width: 100px;
+    top : 590px;
+    left : 700px;
+}
+
+#top1
+{   position : absolute;
+       
+    color : rgb(230, 221, 221);
+    font-style: italic;
+    height: 20px;
+    width: 600px;
+    top : 220px;
+    left : 30px;
+    font-size: 200%;
+    font-weight: '100';
+}
+
+#bottom1
+{   position : absolute;
+       
+    color : rgb(230, 221, 221);
+    font-style: italic;
+    height: 20px;
+    width: 600px;
+    top : 490px;
+    left : 30px;
+    font-size: 200%;
+    font-weight: '100';
+}
+
+#top2
+{   position : absolute;
+       
+    color : rgb(230, 221, 221);
+    font-style: italic;
+    height: 20px;
+    width: 650px;
+    top : 220px;
+    left : 700px;
+    font-size: 200%;
+    font-weight: '100';
+}
+
+#bottom2
+{   position : absolute;
+       
+    color : rgb(230, 221, 221);
+    font-style: italic;
+    height: 20px;
+    width: 650px;
+    top : 490px;
+    left : 700px;
+    font-size: 200%;
+    font-weight: '100';
+}
+
+
+
+
