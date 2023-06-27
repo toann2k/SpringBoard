@@ -1,0 +1,21 @@
+1) mkdir newfolder
+   touch index.html
+   git add  index.html
+   git commit -m "new html files"
+
+2) git remote add origin https://github.com/toann2k/ProjectFolder.git
+
+3) git branch newbranch
+   git checkout newbranch
+   git add .
+   git commit -m "commit is added"
+
+4) git push --tags
+
+5) git add . 
+   git remote add origin https://github.com/toann2k/ProjectFolder.git
+
+
+
+
+
