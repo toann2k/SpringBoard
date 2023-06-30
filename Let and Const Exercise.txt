@@ -1,0 +1,22 @@
+1) What is the differnce between var and let?
+
+You can assign and redeclare var. You cannot redeclare let, in additon to that let create block scope. 
+
+
+
+
+2) What is the differnce between var and const?
+
+You can reassign and  redeclare with var, but you cannot declare or reassign using the const keyword. 
+
+
+
+3) What is the differnce between let and const?
+
+You can reassign with let, but you cannot redeclare or reassign using the const keyword. 
+
+
+4) What is hoisting?
+
+It javascript, a variable can be declared after it has been used. Using a let variable before it is declared 
+will result in a ReferenceError. 
