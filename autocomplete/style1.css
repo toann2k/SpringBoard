@@ -1,0 +1,16 @@
+.search-container {
+   position: fixed;
+   top: 50%;
+   right: 50%;
+
+}
+body{
+   background: linear-gradient(45deg, yellow, red);
+}
+
+input {
+   background: orange;
+}
+.search-container .suggestions {
+   background: orange;
+}
