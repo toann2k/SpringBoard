@@ -1,0 +1,14 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+td, thead{
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+}
+
