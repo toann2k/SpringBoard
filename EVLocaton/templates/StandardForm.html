@@ -1,0 +1,41 @@
+{% extends 'protected.html' %}
+{% block content %}
+
+<center>
+<h1>In Your Search</h1>
+<form method="POST">
+
+  {{ form.hidden_tag() }}
+
+  {% for field in form
+  if field.widget.input_type != 'hidden' %}
+  <p>
+    {{ field.label }}
+    {{ field }}
+
+    {% for error in field.errors %}
+    {{ error }}
+    {% endfor %}
+  </p>
+  {% endfor %}
+
+  <button type="submit"  formaction="/GeolocationSearch">Submit</button>
+  <button formaction='/Search'>Back</button>
+</form>
+</center>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

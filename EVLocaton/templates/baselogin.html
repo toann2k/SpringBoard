@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>EV Location APP</title>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="201635020739-rv3bsgnpa0kqsbpafb8p4lpobk1chqc9.apps.googleusercontent.com">
+</head>
+<body>
+
+
+
+
+
+<h1><center>EV Stations Locations</center></h1>
+<div style = 'text-align:right'  background-image: url('green.jpg')>
+      <a href="/Search">Search</a>
+      <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+          <option value = "None">None</option>
+          <option value="/register">Register</option>
+          <option value = "/login">Login</option>
+          <option value ="/logout">Log out</option>
+       
+      </select>
+</div>
+
+<div class="container">
+  {% block content %}
+  {% endblock %}
+  </div>
+</body>
+</html>
+
