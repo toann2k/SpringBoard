@@ -1,0 +1,28 @@
+                                   EV Location 
+**************************************************************************************************
+
+Purpose : The purpose of this application is to found the EV Location within the certain mile radius of the user choose. 
+
+
+
+Design : There are two API in this design.
+
+One of the API is a https://api.positionstack.com/v1/forward?access_key=090d50f15e46e6388e86507a26a2b1ea&query=
+
+The user uses this API to search for the longtitude and latitude of the central search for the radius. In another word, the user will enter the address for the center of the search. After that how many mile radius does the user want to search for. 
+
+The second API is https://developer.nrel.gov. This API search for the EV Stations within a certain mile radius. 
+
+
+Workflow : First, the user enter the address that represent the center of the radius being search. After that the user enter how many mile radius of being search. Then the code will take all the information and pass it on to https://api.positionstack.com to found the longtitude an latitude of the address. Once the longtitude and latitude is identify those two number will parse it to https://developer.nrel.gov API to identify all the EV station around the radius.     
+
+Result: At the end result, it will display all the EV station within the radius of the searching address. 
+
+
+
+
+
+
+
+
+
