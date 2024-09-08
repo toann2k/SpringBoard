@@ -1,0 +1,195 @@
+.mainContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.catsearch{
+
+  background-image: url("./food1.jpg");
+  background-size: cover;
+
+}
+
+.catsearch1{
+
+  background-image: url("./food1.jpg");
+  background-size: cover;
+
+}
+
+
+
+.inputContainersMenu {
+  display: flex;
+  flex-direction: row;
+  font-size: 64px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputContainersMenu {
+  display: flex;
+  flex-direction: column;
+  font-size: 64px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.resultContainer,
+.historyItem {
+  flex-direction: row;
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyContainer {
+  flex-direction: column;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+
+.InputContainer {
+  display: flex;
+  flex-direction: colu;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+#MenuSelection {
+  position: relative;
+  left: 100px;
+  display: flex;
+  text-align: left;
+  color: red;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+  height: 48px;
+  width: 300px;
+}
+
+.inputBox {
+  height: 30px;
+  width: 60px;
+  font-size: medium;
+  border-radius: 8px;
+  border: 1px solid red;
+  padding-left: 8px;
+}
+
+.inputBox1 {
+  position: relative;
+  left: 100px;
+  height: 20px;
+  width: 200px;
+  font-size: Small;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+
+.MenuSelectButton {
+  position: relative;
+  left: 10px;
+  height: 20px;
+  width: 100px;
+  font-size: xx-small;
+  border-radius: 8px;
+  border: 1px solid grey;
+  
+  padding-left: 8px;
+}
+
+.loginWindow{
+   left: 10px;
+  height: 20px;
+  width: 100px;
+  font-size: xx-small;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+
+.JokeSelectButton {
+  position: relative;
+  left: 10px;
+  height: 20px;
+  width: 100px;
+  font-size: xx-small;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+.ButtenMenu1 {
+  position: absolute;
+  right : 150px;
+  height: 20px;
+  width: 200px;
+  font-size: Large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-right: 8px;
+}
+.RestaurantSearch {
+ 
+  height: 20px;
+  width: 100px;
+  font-size: x-small;
+  border-radius: 12px;
+  border: 1px solid grey;
+  padding-right: 8px;
+}
+
+.APP1 {
+  position: relative;
+  top:  200px;
+  left: 160px;
+  border: none;
+  background: rgb(237, 100, 107);
+  color: white;
+  padding: 12px 24px;
+  margin: 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  width: 200px;
+  cursor: pointer;
+}
+
+
+
+.joketext {
+  top:  500px;
+  left: 500px;
+  font-size: 8px;
+}
+
+.inputBox{
+  width: 50px;
+}
+
+
+
+
+
